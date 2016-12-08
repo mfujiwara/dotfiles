@@ -137,6 +137,9 @@ let g:indent_guides_enable_on_vim_startup = 1
 " grep検索の実行後にQuickFix Listを表示する
 autocmd QuickFixCmdPost *grep* cwindow
 
+" デフォルトでツリーを表示する
+autocmd VimEnter * execute 'NERDTree'
+
 " http://blog.remora.cx/2010/12/vim-ref-with-unite.html
 """"""""""""""""""""""""""""""
 " Unit.vimの設定
