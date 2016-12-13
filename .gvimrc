@@ -47,6 +47,8 @@ NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'bronson/vim-trailing-whitespace'
 " less用のsyntaxハイライト
 NeoBundle 'KohPoll/vim-less'
+" ウィンドウサイズの変更を楽にするプラグイン
+NeoBundle 'simeji/winresizer'
 
 " 余談: neocompleteは合わなかった。ctrl+pで補完するのが便利
 
